@@ -1,44 +1,35 @@
 {
+    "version": "0.2.0",
     "configurations": [
         {
-            "name": "C/C++: clang build and debug active file",
-            "type": "cppdbg",
+            "name": "Debug with clang (integrated terminal)",
+            "type": "lldb",
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
             "args": [],
-            "stopAtEntry": false,
             "cwd": "${fileDirname}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "lldb",
+            "terminal": "integrated",
             "preLaunchTask": "C/C++: clang build active file"
         },
         {
-            "name": "C/C++: g++ build and debug active file",
-            "type": "cppdbg",
+            "name": "Debug with g++ (integrated terminal)",
+            "type": "lldb",
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
             "args": [],
-            "stopAtEntry": false,
             "cwd": "${fileDirname}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "lldb",
+            "terminal": "integrated",
             "preLaunchTask": "C/C++: g++ build active file"
         },
         {
-            "name": "C/C++: clang++ build and debug active file",
-            "type": "cppdbg",
+            "name": "Debug with clang++ (integrated terminal)",
+            "type": "lldb",
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
             "args": [],
-            "stopAtEntry": false,
             "cwd": "${fileDirname}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "lldb",
+            "terminal": "integrated",
             "preLaunchTask": "C/C++: clang++ build active file"
         }
-    ],
-    "version": "2.0.0"
+    ]
 }
